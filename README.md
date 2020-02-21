@@ -63,8 +63,26 @@ trailNr,src_dst,src,lon,lat,date,day,hour,minute,count,v,s,t
 
 
 Assuming that our ESP-Scanner-Devices are distributed over the town - we will have up to 60m between our scanner devices ( or more if we can use far-range-transmitters). To visualize this in Folium we extra generate some random-Points between those Scanners.   
-In Reality: as much of those Scanners would be distributed - as better and precize  the Scan-Results will be. One scenario would be to add this devices into Street-Lamps:
-![image](https://user-images.githubusercontent.com/37293282/75033955-5ecfb480-54ac-11ea-9d2b-69a370191c14.png) pic is showing a prototype we made some year ago. the follow up model was better integrated.: 
-![image](https://user-images.githubusercontent.com/37293282/75034187-f6cd9e00-54ac-11ea-8056-15ef7232df79.png)  only the Antenna was on Top of the Lamp.
+In Reality: as much of those Scanners would be distributed - as better and precize  the Scan-Results will be. One scenario would be to add this devices into Street-Lamps:  
+![image](https://user-images.githubusercontent.com/37293282/75033955-5ecfb480-54ac-11ea-9d2b-69a370191c14.png)  
+pic is showing a prototype we made some year ago. the followUp model was better integrated.:   
+![image](https://user-images.githubusercontent.com/37293282/75034187-f6cd9e00-54ac-11ea-8056-15ef7232df79.png)   
+only the Antenna was on Top of the Lamp. (This all is Experimental Stuff - just to elaborate "what is possible?")  
+
+  
+**Visualization**
+
+There are planty tools and stuff on how to visualize Swarm-Movements..  
+
+QGIS ( https://www.qgis.org/de/site/ )  
+py/folium ( https://python-visualization.github.io/folium/ )  
+https://github.com/keplergl   <--- this will definitely my next tool to visualize those trails. It needs a bit an other format of the src/dst etc.
+
+So for the moment this experiment here base on PYTHON, QGIS  and Folium!
+
+
+**From random-Trail to MAP**
+  
+  
 
 
