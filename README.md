@@ -21,4 +21,11 @@ But bear in Mind - the technology behind all this is REAL! The basic Concept on 
 
 Our assumption is to have hundrets of those Scan-Boxes over an area..e.g Munich:
 
-![](ESP-Scan-fake1.jpg)
+![image](https://user-images.githubusercontent.com/37293282/75027380-c67f0300-549e-11ea-837e-195551333a5f.png)
+
+and finally we want vizualize how a target-Group ( e.g. devices at 6:00 AM ) are MOVING across this area!
+
+![image](https://user-images.githubusercontent.com/37293282/75029173-e06e1500-54a1-11ea-99de-10ed91e3386f.png)
+
+
+
