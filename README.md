@@ -36,11 +36,14 @@ src,dst,time_src,time_dst,day,amount
 **8175**,15677,6,7,MON,11  
 15677,15646,7,7,Mon,15  
 
+Each Scanner will have this randomNumber-ID AND a fixed GeoLocation ( e.g. positioned in a Street-Lamp ! )
+
 Our goal is to understand and to visualize when, where and in which amount our swarm is moving. Will it be something like this? A Move from Sector-Scan to Sector-Scan. Detecting where people live, stay ( how long?), leave, work, celebrate,....
 
 ![image](https://user-images.githubusercontent.com/37293282/75032428-e0bdde80-54a8-11ea-817b-84d486c16531.png)
 
-considering all this we generated some random ( fake ) data of such kind of "Trails":
+considering all this we generated some random ( fake ) data of such kind of "Trails". with 
+trailNr,src_dst,src,**lon,lat** ( from the scanners)..and some Timestamp-info when the scan was done
 
 trailNr,src_dst,src,lon,lat,date,day,hour,minute,count,v,s,t
 1,8174_**8185**,8174,11.410571516906163,48.15152679449321,2017-05-01 06:00,MON,6,0,22,0,1999.0,60  
@@ -57,10 +60,10 @@ trailNr,src_dst,src,lon,lat,date,day,hour,minute,count,v,s,t
 1,8185_15638,8185,11.45344726875059,48.14737021184762,2017-05-01 06:50,MON,6,50,20,0,1581.0,60
 1,8185_15638,8185,11.457450692596685,48.146417788523856,2017-05-01 06:55,MON,6,55,20,0,1581.0,60
 1,8185_15638,15638,11.457450692596685,48.146417788523856,2017-05-01 06:59,MON,6,59,20,0,1581.0,60
-2,8174_8185,8174,11.410571516906163,48.15152679449321,2017-05-01 07:00,MON,7,0,40,0,1999.0,60
 
-Assuming that our ESP-Scanner-Devices are distributed over the town - we will have up to 60m between our scanner devices ( or more ). To visualize this in Folium we extra generate some random-Points between those
-Scanners. In Reality: as much of those Scanners would be distributed - as better and precize  the Scan-Results will be. One scenario would be to add this devices into Street-Lamps:
+
+Assuming that our ESP-Scanner-Devices are distributed over the town - we will have up to 60m between our scanner devices ( or more if we can use far-range-transmitters). To visualize this in Folium we extra generate some random-Points between those Scanners.   
+In Reality: as much of those Scanners would be distributed - as better and precize  the Scan-Results will be. One scenario would be to add this devices into Street-Lamps:
 ![image](https://user-images.githubusercontent.com/37293282/75033955-5ecfb480-54ac-11ea-9d2b-69a370191c14.png) pic is showing a prototype we made some year ago. the follow up model was better integrated.: 
 ![image](https://user-images.githubusercontent.com/37293282/75034187-f6cd9e00-54ac-11ea-8056-15ef7232df79.png)  only the Antenna was on Top of the Lamp.
 
