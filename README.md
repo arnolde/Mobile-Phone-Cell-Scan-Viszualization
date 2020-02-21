@@ -61,5 +61,7 @@ trailNr,src_dst,src,lon,lat,date,day,hour,minute,count,v,s,t
 
 Assuming that our ESP-Scanner-Devices are distributed over the town - we will have up to 60m between our scanner devices ( or more ). To visualize this in Folium we extra generate some random-Points between those
 Scanners. In Reality: as much of those Scanners would be distributed - as better and precize  the Scan-Results will be. One scenario would be to add this devices into Street-Lamps:
+![image](https://user-images.githubusercontent.com/37293282/75033955-5ecfb480-54ac-11ea-9d2b-69a370191c14.png) pic is showing a prototype we made some year ago. the follow up model was better integrated.: 
+![image](https://user-images.githubusercontent.com/37293282/75034187-f6cd9e00-54ac-11ea-8056-15ef7232df79.png)  only the Antenna was on Top of the Lamp.
 
 
